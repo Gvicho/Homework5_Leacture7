@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backBtn"
+        android:layout_width="12.21dp"
+        android:layout_height="11.35dp"
+        android:background="@drawable/back"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="16dp"/>
+    <TextView
+        android:layout_marginTop="104dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/register"
+        android:text="@string/log_in"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <EditText
+        android:id="@+id/edtTxtLogInEmail"
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <EditText
+        android:id="@+id/edtTxtLogInPass"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:inputType="textPassword"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="16dp"
+        android:id="@+id/btnLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in"
+        android:background="@drawable/registerbtn"
+        android:textColor="@color/white"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "101457982916",
+    "project_id": "homework5leacture7",
+    "storage_bucket": "homework5leacture7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101457982916:android:713cc196e6e016924f2091",
+        "android_client_info": {
+          "package_name": "com.example.homework5_leacture7"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvU4Oqq0qNq1-mySKQSro_ESJlqA5JNp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
